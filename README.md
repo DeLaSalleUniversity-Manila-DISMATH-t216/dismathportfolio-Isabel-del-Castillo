@@ -123,16 +123,16 @@ dismathportfolio-Isabel-del-Castillo created by Classroom for GitHub
   - quantifiers
 - In this week's lesson, we were taught about another tool, which is the rules of inference.
 
-| Tautology | Name |
-| :-----------: | :------------: |
-| (p ∧ (p → q)) → q | Modus Ponens |
-| (¬q ∧ (p → q)) → ¬p | Modus Tollens |
-| ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
-| ((p ∨ q) ∧ ¬p) → q | Disjunctive Syllogism |
-| p → (p ∨ q) | Addition |
-| (p ∧ q) → p | Simplification |
-| ((p) ∧ (q)) → (p ∧ q) | Conjunction |
-| ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) | Resolution |
+|   **Rule of Inference**  |            **Tautology**           |          **Name**          |
+|:--------------------|:------------------------------:|:----------------------:|
+|       p<br>p→q<br>∴ q      |        (p ∧ (p → q)) → q       |      Modus Ponens      |
+|     ¬q<br>p→q<br>∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |      Modus Tollens     |
+|     p→q<br>q→r<br>∴ p→r    |  ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
+|      p∨q<br>¬p<br>∴ q      |       ((p ∨ q) ∧ ¬p) → q       |  Disjunctive Syllogism |
+|       p<br>∴p ∨ q       |           p → (p ∨ q)          |        Addition        |
+|       p ∧ q<br>∴ p       |           (p ∧ q) → p          |      Simplification      |
+|      p<br>q<br>∴ p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
+| p ∨ q<br>¬p ∨ r<br>∴ q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       | 
 
 - In our assignment, using the rules of inference, we conluded that superman does not exist.
 
@@ -153,3 +153,15 @@ dismathportfolio-Isabel-del-Castillo created by Classroom for GitHub
   5. Proof by contradiction
     - Asuume that the premise is not T (¬premise ≡ T)
     - Based on that, show that the premise will end up in a contradiction.   
+  6. Proof by Equivalence (p ↔ q ↔ (p → q) ∧ (q → p)
+
+## Week 5:
+- Continuation of methods of proof
+- Proof by counterexample
+  - ** Example ** "Every positive integer is the sum of the squares of two integers."
+    - The counterexample given were 3, 6, 7, and 10 since they are not a sum of squares of two integers.
+- Mathematical Induction
+  - Show P(1) or P(0) to be true.
+  - Direct proof
+    - Assume P(k) ≡ T
+    - Show P(k+1) ≡ T
