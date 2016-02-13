@@ -14,14 +14,14 @@ dismathportfolio-Isabel-del-Castillo created by Classroom for GitHub
      - Mathematical truth - what we use in DISMATH
 - I also learned logical connectives
 
-| Operator | Symbol | Usage |
-| :---: | :---: | :---: |
-| Negation | ¬ | not |
-| Conjunction | ∧ | and |
-| Disjunction | v | or |
-| Exclusive or | ⊕ | xor |
-| Conditional | → | if, then |
-|Biconditional | ↔ | iff |
+| Logical Symbol  |  Logical Operator | Shorthand | Formula | Logical Expression |
+| :-----: |:-------:|:-----:| :-------: | :-------: |
+| ¬ |Negation | not | val(¬p) = 1 - val(p) | ¬p |
+| ∧ | Conjunction | and | val(p ∧ q) = min(val(p), val(q)) | p ∧ q |
+| v | Disjunction | or | val(p v q) = max(val(p), val(q)) | p v q |
+| ⊕ | Exclusive disjunction | xor | if val(p)  not equal val(q) = 1 , otherwise  0|  p ⊕ q  ≡ (¬p ∧ q) v (p ∧ ¬q) |
+| → | Conditional | if, then | if val(p)  ≤ val(q) = 1 , otherwise  0  | p → q ≡  ¬p v q |
+| ↔ | Biconditional | iff | if val(p) equals val(q) = 1 , otherwise  0 |  p ↔ q ≡ (p → q) ∧ (q → p) |
 
 - Also, I learned how to use a truth table.
   - Truth table is a lists of possible combination of inputs with corresponding output.
@@ -160,7 +160,7 @@ dismathportfolio-Isabel-del-Castillo created by Classroom for GitHub
 - Proof by counterexample
   - ** Example ** "Every positive integer is the sum of the squares of two integers."
     - The counterexample given were 3, 6, 7, and 10 since they are not a sum of squares of two integers.
-- Mathematical Induction
+7. Mathematical Induction
   - Show P(1) or P(0) to be true.
   - Direct proof
     - Assume P(k) ≡ T
