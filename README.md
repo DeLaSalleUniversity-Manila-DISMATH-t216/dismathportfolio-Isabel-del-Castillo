@@ -165,3 +165,43 @@ dismathportfolio-Isabel-del-Castillo created by Classroom for GitHub
   - Direct proof
     - Assume P(k) ≡ T
     - Show P(k+1) ≡ T
+
+## Week 6:
+- Program Correctness
+- Recursive Algorithms
+- Summation
+
+## Week 7:
+I learned that:
+- An empty set is not equal to a set containing an empty set.
+- A power set contains all subsets of a set. (no. of subsets= 2^n where n is the number of elements of a set)
+- Identities also exist in sets.
+
+## Week 8:
+- I learned that:
+  - There are 3 types of functions.
+    - One-to-one function (Injective)
+      - For every x,y such that (x!=y --> f(x)!=f(y))
+    - Onto Function (Surjective)
+      - For every y, there's an x such that (f(x)=y)
+    - Bijective Function
+      - If and only if it is BOTH injective & surjective.
+
+## Week 9:
+- This week, I learned different types of algorithm:
+  - Finding the Minimum/Maximum
+  - Linear Search Algorithm
+  - Binary Search Algorithm
+
+## Week 10:
+- More types of algorithm:
+  - Bubble Sort Algorithm
+  - Insertion Sort Algorithm
+  - Greedy Change Algorithm
+
+## Week 11:
+- I learned about Growth of Functions.
+  - Big-O Notation.
+  - Big-Omega Notation.
+  - Big-Theta Notation.
+ 
