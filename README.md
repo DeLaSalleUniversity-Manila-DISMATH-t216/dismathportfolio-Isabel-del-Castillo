@@ -171,13 +171,13 @@ dismathportfolio-Isabel-del-Castillo created by Classroom for GitHub
 - Recursive Algorithms
 - Summation
 
-## Week 7:
+## Week 8:
 I learned that:
 - An empty set is not equal to a set containing an empty set.
 - A power set contains all subsets of a set. (no. of subsets= 2^n where n is the number of elements of a set)
 - Identities also exist in sets.
 
-## Week 8:
+## Week 9:
 - I learned that:
   - There are 3 types of functions.
     - One-to-one function (Injective)
@@ -186,9 +186,7 @@ I learned that:
       - For every y, there's an x such that (f(x)=y)
     - Bijective Function
       - If and only if it is BOTH injective & surjective.
-
-## Week 9:
-- This week, I learned different types of algorithm:
+- Also this week, I learned different types of algorithm:
   - Finding the Minimum/Maximum
   - Linear Search Algorithm
   - Binary Search Algorithm
@@ -198,10 +196,22 @@ I learned that:
   - Bubble Sort Algorithm
   - Insertion Sort Algorithm
   - Greedy Change Algorithm
-
-## Week 11:
 - I learned about Growth of Functions.
   - Big-O Notation.
   - Big-Omega Notation.
   - Big-Theta Notation.
+
+## Week 11:
+- I learned about graph theory
+  - graphs
+  - vertex and degree of a vertex
+  - Handshaking theorem
+  - Simple graphs Kn
+  - Euler Circuit and Path
+  - Hamilton Circuit and Path
+  - Matrices of graphs
+  - Isomorphism of graphs
+  - Planar Graphs
+  - Euler's formula
+
  
