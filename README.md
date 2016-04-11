@@ -201,7 +201,7 @@ I learned that:
   - Big-Omega Notation.
   - Big-Theta Notation.
 
-## Week 11:
+## Week 12:
 - I learned about graph theory
   - graphs
   - vertex and degree of a vertex
@@ -213,5 +213,85 @@ I learned that:
   - Isomorphism of graphs
   - Planar Graphs
   - Euler's formula
+
+## Week 13:
+- <b> COLORED GRAPHS </b>
+ - A coloring of a simple graph is the assignment of a color to each vertex of the graph so that no two adjacent vertices are assigned the same color.
+ - The chromatic number of a graph is the least number of colors needed for a coloring of this graph.
+ - The best algorithms known for finding the chromatic number of a graph have exponential worst-case time complexity
+ 
+<b> FOUR COLOR THEOREM </b>
+- The chromatic number of planar graph is no greater than four. (ONLY APPLIES TO PLANAR GRAPHS)
+- non-planar graphs can have a larger number
+
+<b> TREES </b>
+- A <b> TREE </b> is a connected undirected graph with no simple circuits.
+- a data structure that emulates a hierarchichal tree structure with a set of linked nodes.
+- WHY STUDY TREES?
+  - used to construct efficient algorithms for locating items in a list
+  - used in algorithms, such as Huffman coding, that construct efficient codes saving costs in data transmission and storage
+  - used to study games such as checkers and chess and can help determine winning strategies for playing these games
+  - used to model procedures carried out using a sequence of decisions
+  
+- THEOREM: An undirected graph is a treee if and only if there is a unique simple path between any two of its vertices.
+- <b> ROOTED TREE </b>
+ - a tree in which one vertex has been designated as the root and every edge is directed away from the root
+
+- <b> LEAVES </b>
+ - nodes who don't have children
+- <b> INTERNAL NODES </b>
+ - those who have children
+ 
+- <b> M-ARY TREE </b>
+ - A rooted tree is called an m-ary tree if every internal vertex has no more than m children.
+ - The tree is called a full m-ary tree if every internal vertex has exactly m children.
+ 
+<b> ORDERED ROOTED TREE </b>
+ - a rooted tree where the children of each internal vertex are ordered
+ 
+- PROPERTIES OF TREES </b>
+ - A tree with n vertices has n-1 edges
+ - A full m-ary tree with i internal vertices contains n = mi + 1 vertices
+ - A full m-ary tree with 
+  - (i) n vertices has i = (n-1)/m internal vertices and l = [(m-1) n + 1]/m leaves,
+  - (ii) i internal vertices has n = mi + 1 vertices and l = (m-1)i + 1 leaves,
+  - (iii) l leaves has n = (ml - 1)/(m-1) vertices and i = (l-1)/(m-1) internal vertices
+  
+- <b> MODELING COMPUTATION </b> 
+ - Structures in models of computaion:
+    1. Grammars
+    2. Finite-State Machines
+    3. Turing Machines
+    
+- <b> GRAMMARS </b> 
+ - FORMAL LANGUAGES
+ - Why not English or Tagalog or any other language?
+    - There are various meanings in a language. It is not definite or could have multiple meanings. (VAGUE LANGUAGE)
+ - Grammars are extremely important in the construction and theory of compilers.
+ - A SOURCE CODE cannot do everything by itself.
+ 
+ - SYNTAX - The syntax of a language is extremely complicated 
+ - APLHABET - a finite set of symbols
+ - VOCABULARY (V) - is a finite, nonempty set of elements called <i> symbols </i>
+ - WORD (or sentece) over V
+ 
+- <b> AUTOMATA THEORY </b>
+ - studies the laws of computation
+ - lexical analyzers
+ 
+- <b> FINITE-STATE MACHINE </b>
+ - consists of a finite set S of states, a finite input alphabet I, a finite output alphabet O, a transitiom function f that assigns to each state and input pair a new state, an output function g that assigns to each state and input pair an output, and an initial state s0.
+ - example
+   - ![alt text](https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-Isabel-del-Castillo/blob/master/vending%20machine.png)
+ 
+- <b> FINITE-MACHINES (NO OUTPUT) </b>
+ - A finite-state automaton M = (S, I, f, s0, F ) consists of a finite set S of states, a finite input alphabet I, a transition function f that assigns a next state to every pair of state and input (so that f : S × I → S), an initial or start state s0, and a subset F of S consisting of final (or accepting states).
+
+- <b> TURING MACHINES </b> [ T =(S,I,f,s0)]
+ - consists of a finite set S of states, an alphabet I containing the blank symbol B, a partial function f from S × I to S × I × {R, L}, and a starting state s0.
+ 
+
+ 
+
 
  
